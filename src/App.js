@@ -44,11 +44,10 @@ function ProdukInfo(props) {
       <p className="Price">{harga}</p>
       <Discount isDiscount={isDiscount} />
       <p className="info">
-        className Saatnya menikmati era baru MPV bersama Hyundai STARGAZER,
-        inovasi mobilitas untuk setiap perjalanan berkualitas. Inilah standar
-        baru mobil keluarga yang menghadirkan kenyamanan maksimal dan fitur
-        berkelas, serta memberikan ruang luas untuk kebersamaan Anda dan orang
-        terkasih.
+        Saatnya menikmati era baru MPV bersama Hyundai STARGAZER, inovasi
+        mobilitas untuk setiap perjalanan berkualitas. Inilah standar baru mobil
+        keluarga yang menghadirkan kenyamanan maksimal dan fitur berkelas, serta
+        memberikan ruang luas untuk kebersamaan Anda dan orang terkasih.
       </p>
       <ul>{listbenefits}</ul>
       <a onClick={(e) => TambahCart(namamobil, e)} href="#">
