@@ -7,9 +7,9 @@ function App() {
       <FotoProduk />
       <ProdukInfo
         isDiscount="yes"
-        product="MOBIL"
-        namamobil="Santa FE"
-        harga="1.099.999.999"
+        product="Hyundai"
+        namamobil="Stargazer"
+        harga="280.000.000"
       />
     </div>
   );
